@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+body {
+    background-image: url('image/body.jpeg');
+    }
+}
+
+body {
+    background-image: url('image/body.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFA500;
+}
+
+.Profil {
+    margin-bottom: 30px;
+}
+
+.Profil img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.neon-link {
+    display: block;
+    margin: 15px 0;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #0ff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff inset;
+  }
+
+.neon-link:hover {
+    background-color: #0ff;
+    color: #0d2ff0;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+  }
+
+.container a {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px auto;
+}
